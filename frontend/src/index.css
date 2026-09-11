@@ -1,0 +1,180 @@
+/* ─── Google Fonts — must be first ──────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { @apply border-neutral-200; }
+
+  body {
+    @apply bg-neutral-50 text-neutral-900 antialiased;
+    font-family: 'Noto Sans', Inter, system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-neutral-800;
+  }
+
+  a { @apply transition-colors duration-150; }
+}
+
+@layer components {
+
+  /* ── Buttons ──────────────────────────────────────────────────────────────── */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2
+           bg-primary-600 hover:bg-primary-700 active:bg-primary-800
+           text-white font-semibold py-2.5 px-6 rounded
+           transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed
+           text-sm tracking-wide;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2
+           bg-white hover:bg-neutral-50 active:bg-neutral-100
+           text-primary-600 font-semibold py-2.5 px-6 rounded
+           border border-primary-600
+           transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed
+           text-sm tracking-wide;
+  }
+
+  .btn-saffron {
+    @apply inline-flex items-center justify-center gap-2
+           bg-saffron-500 hover:bg-saffron-600 active:bg-saffron-600
+           text-white font-semibold py-2.5 px-6 rounded
+           transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-saffron-400 focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed
+           text-sm tracking-wide;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2
+           bg-red-600 hover:bg-red-700 text-white font-semibold
+           py-2.5 px-6 rounded transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-red-400 text-sm;
+  }
+
+  /* ── Card ─────────────────────────────────────────────────────────────────── */
+  .card {
+    @apply bg-white rounded border border-neutral-200 shadow-gov p-5;
+  }
+
+  .card-header {
+    @apply flex items-center justify-between pb-3 mb-4
+           border-b border-neutral-200;
+  }
+
+  /* ── Input ────────────────────────────────────────────────────────────────── */
+  .input-field {
+    @apply w-full px-3 py-2.5 rounded border border-neutral-300
+           bg-white text-neutral-900
+           focus:outline-none focus:ring-2 focus:ring-primary-400 focus:border-primary-500
+           placeholder-neutral-400 text-sm transition-all duration-150;
+  }
+
+  .input-label {
+    @apply block text-sm font-medium text-neutral-700 mb-1;
+  }
+
+  /* ── Badge ────────────────────────────────────────────────────────────────── */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  /* ── Sidebar link ─────────────────────────────────────────────────────────── */
+  .sidebar-link {
+    @apply flex items-center gap-3 px-4 py-2.5
+           text-neutral-300 hover:bg-white/10 hover:text-white
+           transition-all duration-150 font-medium text-sm rounded-sm;
+  }
+
+  .sidebar-link.active {
+    @apply bg-white/15 text-white border-l-2 border-saffron-500;
+  }
+
+  /* ── Gov top strip ────────────────────────────────────────────────────────── */
+  .gov-strip {
+    @apply bg-primary-600 text-white text-xs py-1 px-4
+           flex items-center justify-between;
+  }
+
+  /* ── Gov header bar ───────────────────────────────────────────────────────── */
+  .gov-header {
+    @apply bg-white border-b-4 border-saffron-500 shadow-gov;
+  }
+
+  /* ── Section title ────────────────────────────────────────────────────────── */
+  .section-title {
+    @apply text-base font-semibold text-primary-700
+           border-l-4 border-saffron-500 pl-3 mb-4;
+  }
+
+  /* ── Table ────────────────────────────────────────────────────────────────── */
+  .gov-table {
+    @apply w-full text-sm border-collapse;
+  }
+  .gov-table thead tr {
+    @apply bg-primary-600 text-white;
+  }
+  .gov-table thead th {
+    @apply text-left py-3 px-4 font-semibold text-xs uppercase tracking-wide;
+  }
+  .gov-table tbody tr {
+    @apply border-b border-neutral-100 hover:bg-primary-50 transition-colors;
+  }
+  .gov-table tbody td {
+    @apply py-3 px-4 text-neutral-700;
+  }
+
+  /* ── Status badges ────────────────────────────────────────────────────────── */
+  .status-submitted        { @apply bg-blue-100   text-blue-800; }
+  .status-verified         { @apply bg-cyan-100   text-cyan-800; }
+  .status-assigned         { @apply bg-purple-100 text-purple-800; }
+  .status-accepted         { @apply bg-indigo-100 text-indigo-800; }
+  .status-work_started     { @apply bg-yellow-100 text-yellow-800; }
+  .status-in_progress      { @apply bg-orange-100 text-orange-800; }
+  .status-resolved         { @apply bg-green-100  text-green-800; }
+  .status-citizen_verification { @apply bg-teal-100 text-teal-800; }
+  .status-closed           { @apply bg-neutral-100 text-neutral-700; }
+  .status-rejected         { @apply bg-red-100   text-red-800; }
+  .status-reopened         { @apply bg-pink-100  text-pink-800; }
+
+  /* ── Priority ─────────────────────────────────────────────────────────────── */
+  .priority-low       { @apply bg-green-100  text-green-800; }
+  .priority-medium    { @apply bg-yellow-100 text-yellow-800; }
+  .priority-high      { @apply bg-orange-100 text-orange-800; }
+  .priority-emergency { @apply bg-red-100    text-red-800; }
+
+  /* ── Tricolor divider ─────────────────────────────────────────────────────── */
+  .tricolor-bar {
+    height: 4px;
+    background: linear-gradient(to right,
+      #FF671F 33.33%,
+      #FFFFFF 33.33% 66.66%,
+      #138808 66.66%);
+  }
+}
+
+/* ─── Leaflet map ────────────────────────────────────────────────────────────── */
+.leaflet-container { z-index: 1; }
+
+/* ─── Custom scrollbar ──────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #f1f3f5; }
+::-webkit-scrollbar-thumb { background: #ced4da; border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: #adb5bd; }
+
+/* ─── Skeleton ──────────────────────────────────────────────────────────────── */
+.skeleton { @apply animate-pulse bg-neutral-200 rounded; }
+
+/* ─── Print ─────────────────────────────────────────────────────────────────── */
+@media print {
+  .no-print { display: none !important; }
+}

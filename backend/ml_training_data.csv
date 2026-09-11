@@ -1,0 +1,81 @@
+title,description,category,category_label,priority,outcome,confidence,resolution_hours
+"Road Damage issue in the area","There is a large pothole on the main road causing accidents for two-wheelers and cars.",road_damage,Road Damage,high,accepted,0.89,24
+"Garbage complaint at near market","Garbage is piling up near the bus stop and the smell is spreading across the area.",garbage,Garbage Collection,medium,accepted,0.85,18
+"Street Light issue in the locality","The street light near the park is not working and the area is very dark at night.",street_light,Street Light,medium,accepted,0.88,12
+"Water Supply issue in the neighborhood","Water is leaking from the pipeline near the house and flooding the street.",water_supply,Water Supply,high,needs_review,0.8,36
+"Drainage complaint at near school","The drainage line near the lane is blocked and rainwater stays stagnant.",drainage,Drainage,high,accepted,0.91,48
+"Electricity issue in the colony","There are frequent power cuts in the colony and the transformer is damaged.",electricity,Electricity,emergency,accepted,0.93,24
+"Traffic complaint at main road","The traffic signal at the junction is not working and traffic is blocked.",traffic,Traffic,high,accepted,0.87,24
+"Illegal Parking issue in the area","Vehicles are parked on the footpath near the market blocking pedestrians.",illegal_parking,Illegal Parking,medium,accepted,0.83,12
+"Public Transport complaint at near station","The bus stop shelter in the colony is damaged and passengers are exposed to rain.",public_transport,Public Transport,medium,accepted,0.79,18
+"Healthcare issue in the locality","The public clinic near the ward has poor hygiene and patients are waiting long.",healthcare,Healthcare,high,needs_review,0.76,24
+"Education complaint at near school","The school building near the road has broken windows and unsafe classrooms.",education,Education,medium,accepted,0.81,24
+"Government Office issue in the neighborhood","The government office counter is slow and citizens are waiting for hours for service.",government_office,Government Office,medium,needs_review,0.74,36
+"Environment complaint at near garden","Smoke from burning waste is polluting the air near the garden.",environment,Environment,high,accepted,0.86,36
+"Other civic issue in the area","There is a general civic issue in the neighborhood that needs attention.",others,Others,low,rejected,0.62,48
+"Road Damage request for correction","The road surface is cracked near the junction and needs urgent repair.",road_damage,Road Damage,high,accepted,0.9,24
+"Garbage issue in the locality","The trash bins are overflowing and waste is scattered around the street.",garbage,Garbage Collection,medium,accepted,0.84,18
+"Street Light complaint at near colony","Several lamps are broken and pedestrians are struggling to walk safely after sunset.",street_light,Street Light,medium,accepted,0.86,12
+"Water Supply complaint at near market","There is no water supply in the area for the entire day and residents are facing inconvenience.",water_supply,Water Supply,high,needs_review,0.78,36
+"Drainage issue in the neighborhood","The sewer is overflowing and causing foul smell in the neighborhood.",drainage,Drainage,high,accepted,0.9,48
+"Electricity complaint at near road","The electricity line is hanging dangerously near the road and needs quick repair.",electricity,Electricity,emergency,accepted,0.95,24
+"Traffic issue in the locality","The road is congested every evening due to poor traffic management near the market.",traffic,Traffic,high,accepted,0.82,24
+"Illegal Parking complaint at near hospital","Cars are parked illegally in front of the gate and emergency vehicles cannot pass.",illegal_parking,Illegal Parking,medium,accepted,0.81,12
+"Public Transport issue in the area","The public transport route is not proper and commuters are waiting for long.",public_transport,Public Transport,medium,accepted,0.77,18
+"Healthcare complaint at near colony","The ambulance service is delayed and there is a shortage of medical staff.",healthcare,Healthcare,high,needs_review,0.75,24
+"Education issue in the neighborhood","The college library has a lighting problem and students cannot study after sunset.",education,Education,medium,accepted,0.8,24
+"Government Office complaint at near office","The certificate issuance desk has long queues and poor guidance.",government_office,Government Office,medium,needs_review,0.73,36
+"Environment issue in the locality","The pond area is dirty and the water has a foul smell.",environment,Environment,high,accepted,0.84,36
+"Other civic complaint in the area","The local department should inspect a problem reported by residents in the area.",others,Others,low,rejected,0.6,48
+"Road Damage complaint near school","The speed breaker is damaged and vehicles are hitting the broken edge near the road.",road_damage,Road Damage,high,accepted,0.88,24
+"Garbage issue near park","Dirty waste is dumped near the drain causing a sanitation problem.",garbage,Garbage Collection,medium,accepted,0.82,18
+"Street Light issue near school","The pole light has stopped working and needs maintenance immediately.",street_light,Street Light,medium,accepted,0.87,12
+"Water Supply issue near lane","The tap connection is broken and water is wasting continuously.",water_supply,Water Supply,high,needs_review,0.79,36
+"Drainage complaint near market","The drain cover is broken and water is collecting on the road.",drainage,Drainage,high,accepted,0.89,48
+"Electricity issue near building","The voltage is low and the lights keep flickering in the apartment block.",electricity,Electricity,emergency,accepted,0.94,24
+"Traffic complaint near crossing","There is an accident at the intersection and vehicles are stuck for long hours.",traffic,Traffic,high,accepted,0.83,24
+"Illegal Parking issue near station","The roadside is occupied by unauthorized parked vehicles causing traffic issues.",illegal_parking,Illegal Parking,medium,accepted,0.8,12
+"Public Transport complaint near town","The bus stop sign is missing and people are confused about the route.",public_transport,Public Transport,medium,accepted,0.76,18
+"Healthcare issue near street","The hospital entrance is not clean and basic medicines are not available.",healthcare,Healthcare,high,needs_review,0.77,24
+"Education complaint near area","The classroom benches are damaged and the school needs maintenance.",education,Education,medium,accepted,0.78,24
+"Government Office issue near office","The department office is not providing proper assistance to applicants.",government_office,Government Office,medium,needs_review,0.72,36
+"Environment complaint near road","Noise pollution from the market is affecting nearby homes at night.",environment,Environment,high,accepted,0.83,36
+"Road Damage issue in the area","There is a deep pothole on the service lane causing vehicle damage.",road_damage,Road Damage,high,accepted,0.9,24
+"Garbage complaint in the colony","Garbage is piled in front of the houses and the scent is spreading.",garbage,Garbage Collection,medium,accepted,0.86,18
+"Street Light issue near park","The street light near the road is not working and the area is very dark at night.",street_light,Street Light,medium,accepted,0.88,12
+"Water Supply complaint near school","The pipeline is leaking and water is overflowing onto the street for the past two days.",water_supply,Water Supply,high,needs_review,0.82,36
+"Drainage issue near colony","The drainage channel is blocked and rainwater is flooding the lane after every shower.",drainage,Drainage,high,accepted,0.91,48
+"Electricity issue near street","Electricity power cuts are frequent and the transformer is making a buzzing sound.",electricity,Electricity,emergency,accepted,0.94,24
+"Traffic complaint near junction","The traffic signal is not working properly causing severe traffic congestion near the junction.",traffic,Traffic,high,accepted,0.88,24
+"Illegal Parking issue near market","Vehicles are parked illegally on the footpath causing obstruction.",illegal_parking,Illegal Parking,medium,accepted,0.82,12
+"Public Transport issue near bus stop","The bus stop shelter is broken and passengers are waiting in the rain.",public_transport,Public Transport,medium,accepted,0.78,18
+"Healthcare issue near clinic","The clinic waiting area is dirty and there is no proper medical staff available in the morning.",healthcare,Healthcare,high,needs_review,0.76,24
+"Education complaint near campus","The school gate is broken and students are unsafe while entering the campus.",education,Education,medium,accepted,0.79,24
+"Government Office complaint near counter","People are waiting for hours at the government office counter and the service is very slow.",government_office,Government Office,medium,needs_review,0.71,36
+"Environment issue near colony","Smoke from burning waste is polluting the air and affecting nearby houses.",environment,Environment,high,accepted,0.85,36
+"Road Damage issue near highway","The road has multiple cracks and the surface needs immediate repair.",road_damage,Road Damage,high,accepted,0.89,24
+"Garbage complaint near market","Waste is dumped beside the road and the area needs sanitation service.",garbage,Garbage Collection,medium,accepted,0.83,18
+"Street Light issue near road","The lamp pole is broken and the street is dark after sunset.",street_light,Street Light,medium,accepted,0.87,12
+"Water Supply issue near apartment","Water supply is not available in the building for several hours daily.",water_supply,Water Supply,high,needs_review,0.8,36
+"Drainage complaint near road","The sewer line is blocked and rainwater is pooling on the road.",drainage,Drainage,high,accepted,0.9,48
+"Electricity issue near transformer","The transformer is making noise and the electricity is unstable in the area.",electricity,Electricity,emergency,accepted,0.93,24
+"Traffic issue near market","The intersection is congested and the road needs better signal control.",traffic,Traffic,high,accepted,0.84,24
+"Illegal Parking complaint near footpath","Vehicles are occupying the footpath and pedestrians cannot move safely.",illegal_parking,Illegal Parking,medium,accepted,0.81,12
+"Public Transport issue near route","The metro stop is not maintained and commuters face inconvenience.",public_transport,Public Transport,medium,accepted,0.76,18
+"Healthcare complaint near hospital","The hospital waiting room is dirty and there are no doctors available.",healthcare,Healthcare,high,needs_review,0.74,24
+"Education issue near college","The college classrooms have poor lighting and students are affected.",education,Education,medium,accepted,0.79,24
+"Government Office complaint near service","Residents are facing delays at the public service counter.",government_office,Government Office,medium,needs_review,0.7,36
+"Environment issue near smoke","The smell of smoke is affecting the neighborhood and the air is polluted.",environment,Environment,high,accepted,0.84,36
+"Road Damage issue near lane","The broken road is causing accidents every day.",road_damage,Road Damage,high,accepted,0.87,24
+"Garbage complaint near colony","Waste has accumulated near the colony bins and needs cleanup.",garbage,Garbage Collection,medium,accepted,0.82,18
+"Street Light issue near avenue","The street lights are off and people are unsafe during the evening.",street_light,Street Light,medium,accepted,0.86,12
+"Water Supply complaint near area","Tap water is unavailable and residents are collecting water from outside.",water_supply,Water Supply,high,needs_review,0.81,36
+"Drainage issue near lane","The rainwater is stuck on the lane and the drainage system is blocked.",drainage,Drainage,high,accepted,0.89,48
+"Electricity complaint near line","The power line is hanging low and the local area is at risk.",electricity,Electricity,emergency,accepted,0.95,24
+"Traffic issue near signal","The traffic signal is misaligned and causing constant congestion.",traffic,Traffic,high,accepted,0.83,24
+"Illegal Parking issue near road","Cars are parked without permission in front of the apartment gate.",illegal_parking,Illegal Parking,medium,accepted,0.8,12
+"Public Transport complaint near stop","The public bus stop is unsafe and commuters are dissatisfied.",public_transport,Public Transport,medium,accepted,0.75,18
+"Healthcare complaint near clinic","The clinic lacks basic medical equipment and staff support.",healthcare,Healthcare,high,needs_review,0.75,24
+"Education issue near school","Students are affected by broken furniture and poor classroom conditions.",education,Education,medium,accepted,0.78,24
+"Government Office complaint near queue","The queue at the office is too long and the counter service is slow.",government_office,Government Office,medium,needs_review,0.69,36
+"Environment issue near air","There is strong smoke and pollution around the local public park.",environment,Environment,high,accepted,0.82,36
